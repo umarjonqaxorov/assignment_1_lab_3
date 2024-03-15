@@ -67,12 +67,10 @@ int main() {
 
     cout << "PROBLEM 8" << endl;
     double diameter=6.9;
-
-
     double area = calculateSphereArea(diameter);
-    std::cout << "The area of the sphere is: " << area << std::endl;
+//    std::cout << "The area of the sphere is: " << area << std::endl;
     float pi = 3.14;
-    cout << "Area:" << (4) * (pi * (diameter * diameter / 4)) << endl;
+    cout << "Area: " << (4) * (pi * (diameter * diameter / 4)) << endl;
     cout << "PROBLEM 9 " << endl;
     float v_1, v_2, t_1;
     cout << " enter the velocity in metrs/seconds";
