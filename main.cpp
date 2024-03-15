@@ -66,9 +66,8 @@ int main() {
     cout << " t = " << t << endl;
 
     cout << "PROBLEM 8" << endl;
-    double diameter;
-    std::cout << "Enter the diameter of the sphere: ";
-    std::cin >> diameter;
+    double diameter=6.9;
+
 
     double area = calculateSphereArea(diameter);
     std::cout << "The area of the sphere is: " << area << std::endl;
